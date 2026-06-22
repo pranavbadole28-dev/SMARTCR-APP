@@ -24,7 +24,7 @@ class AudioUploadScreen extends StatelessWidget {
       var request = http.MultipartRequest(
         'POST',
         Uri.parse(
-          'http://10.0.2.2:5000/predict',
+          'https://smartcry-backend.onrender.com/predict',
         ),
       );
 
